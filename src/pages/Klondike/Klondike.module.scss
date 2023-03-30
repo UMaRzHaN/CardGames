@@ -1,0 +1,178 @@
+$num: 1.5;
+img {
+  width: calc(41px * $num);
+  height: calc(60px * $num);
+  border-radius: 5px;
+  border: 2px solid coral;
+}
+.btns {
+  display: flex;
+  gap: 50px;
+}
+
+.btns1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: none;
+  height: 40px;
+  width: 50px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: #3b5983;
+  --c: #229091; /* the color*/
+  box-shadow: 0 0 0 0.1em inset var(--c);
+  --_g: linear-gradient(var(--c) 0 0) no-repeat;
+  background: var(--_g) calc(var(--_p, 0%) - 100%) 0%,
+    var(--_g) calc(200% - var(--_p, 0%)) 0%,
+    var(--_g) calc(var(--_p, 0%) - 100%) 100%,
+    var(--_g) calc(200% - var(--_p, 0%)) 100%;
+  background-size: 50.5% calc(var(--_p, 0%) / 2 + 0.5%);
+  outline-offset: 0.1em;
+  transition: background-size 0.4s, background-position 0s 0.4s;
+  &:hover {
+    --_p: 100%;
+    transition: background-position 0.4s, background-size 0s;
+  }
+}
+.parent {
+  display: grid;
+  gap: 10px;
+  position: absolute;
+  .scores {
+    position: fixed;
+    font-size: x-large;
+    top: 2%;
+    right: 39%;
+    transform: translateX(-40%);
+  }
+  .res {
+    position: fixed;
+    font-size: x-large;
+    top: 7%;
+    right: 30%;
+  }
+  .undo {
+    position: fixed;
+    font-size: x-large;
+    top: 7%;
+    right: 40%;
+    transform: translateX(-40%);
+  }
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    .allCards {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+    }
+    .selectedOne {
+      img {
+        margin-right: -40px;
+      }
+    }
+    .completed {
+      display: flex;
+      justify-self: end;
+      flex-direction: row;
+      width: calc(41px * $num) * 5;
+      height: calc(60px * $num) * 3;
+      gap: 10px;
+      padding: 10px;
+      background: honeydew;
+      .colums {
+        position: relative;
+        width: calc(100% / 4);
+        z-index: 200;
+        img {
+          position: fixed;
+          z-index: 100;
+        }
+
+        &#clovers {
+          height: 110%;
+          background: url("https://i.pinimg.com/564x/cc/ba/6c/ccba6cf83fd0ae5460804f680adab182.jpg")
+            no-repeat;
+          background-size: 100%;
+        }
+        &#hearts {
+          height: 110%;
+          background: url("https://i.pinimg.com/564x/6d/42/67/6d4267936335d2ee298fc807db0687ee.jpg")
+            no-repeat;
+          background-size: 100%;
+        }
+        &#pikes {
+          height: 110%;
+          background: url("https://i.pinimg.com/564x/db/ec/d4/dbecd4f9c4beabde294f3f14ba68a406.jpg")
+            no-repeat;
+          background-size: 100%;
+        }
+        &#diamonds {
+          height: 110%;
+          background: url("https://i.pinimg.com/564x/27/54/88/275488331a0ac0a44c6fb7d8c50102a7.jpg")
+            no-repeat;
+          background-size: 100%;
+        }
+      }
+    }
+  }
+  button {
+    --c: #229091; /* the color*/
+    color: #3b5983;
+    box-shadow: 0 0 0 0.1em inset var(--c);
+    --_g: linear-gradient(var(--c) 0 0) no-repeat;
+    background: var(--_g) calc(var(--_p, 0%) - 100%) 0%,
+      var(--_g) calc(200% - var(--_p, 0%)) 0%,
+      var(--_g) calc(var(--_p, 0%) - 100%) 100%,
+      var(--_g) calc(200% - var(--_p, 0%)) 100%;
+    background-size: 50.5% calc(var(--_p, 0%) / 2 + 0.5%);
+    outline-offset: 0.1em;
+    transition: background-size 0.4s, background-position 0s 0.4s;
+  }
+  button:hover {
+    --_p: 100%;
+    transition: background-position 0.4s, background-size 0s;
+  }
+  button:active {
+    box-shadow: 0 0 9e9Q inset #0009;
+    background-color: var(--c);
+    color: #fff;
+  }
+  button {
+    font-family: system-ui, sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 15px 15px;
+    cursor: pointer;
+    padding: 0.1em 0.6em;
+    border: none;
+  }
+  .deck {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+    .containers {
+      display: flex;
+      flex-direction: column;
+      min-width: calc(41px * $num);
+      height: max-content;
+      padding-bottom: 10%;
+      z-index: 1000;
+      img {
+        margin-top: -70px;
+        z-index: 100;
+        &:nth-child(1) {
+          margin-top: 0;
+        }
+        &:last-child {
+          cursor: grab;
+        }
+      }
+    }
+  }
+}

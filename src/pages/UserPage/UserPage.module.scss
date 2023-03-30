@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, sans-serif;
+}
+
+.user_parent {
+  background-color: #f7faff;
+  -webkit-box-shadow: 33px 15px 17px 0px rgba(59, 89, 131, 0.78);
+  -moz-box-shadow: 33px 15px 17px 0px rgba(59, 89, 131, 0.78);
+  box-shadow: 33px 15px 17px 0px rgba(59, 89, 131, 0.78);
+}
+.user_pic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: max-content;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 6px 50px rgba(217, 229, 255, 0.7);
+  border-radius: 20px;
+  z-index: 230;
+  padding: 10px;
+}
+
+.user_span {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff !important;
+
+  .user_name {
+    color: #3b5983;
+    background-color: #fff;
+    width: max-content;
+    display: flex;
+  }
+  .user_img {
+    background-color: #fff;
+    width: 200px;
+    height: 200px;
+    border: none;
+  }
+}
+.user_settings {
+  --c: #229091;
+  color: #3b5983;
+  box-shadow: 0 0 0 0.1em inset var(--c);
+  --_g: linear-gradient(var(--c) 0 0) no-repeat;
+  background: var(--_g) calc(var(--_p, 0%) - 100%) 0%,
+    var(--_g) calc(200% - var(--_p, 0%)) 0%,
+    var(--_g) calc(var(--_p, 0%) - 100%) 100%,
+    var(--_g) calc(200% - var(--_p, 0%)) 100%;
+  background-size: 50.5% calc(var(--_p, 0%) / 2 + 0.5%);
+  outline-offset: 0.1em;
+  transition: background-size 0.4s, background-position 0s 0.4s;
+  border-radius: 10px;
+  .user_settings:active {
+    box-shadow: 0 0 9e9Q inset #0009;
+    background-color: var(--c);
+    color: #fff;
+  }
+}
+.user_settings:hover {
+  --_p: 100%;
+  transition: background-position 0.4s, background-size 0s;
+}
+.user_settings {
+  font-size: 50px;
+  text-transform: uppercase;
+  margin: 15px 15px;
+  cursor: pointer;
+  padding: 0.1em 0.6em;
+  border: none;
+  display: block;
+}
+.user_form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}
+.user_pass {
+  width: 50%;
+}

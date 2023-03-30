@@ -1,0 +1,28 @@
+$num: 1.5;
+
+.another_cards_container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: transparent;
+  position: absolute;
+
+  .another_cards {
+    border: 1px solid red;
+    border-radius: 5px;
+    min-width: calc(39px * $num);
+    min-height: calc(60px * $num);
+    background: url(../../img/default.png) no-repeat;
+    background-size: 100%;
+    grid-area: 1/1;
+
+    &:nth-child(odd) {
+      margin-top: 110px;
+    }
+    &:nth-child(even) {
+      margin-top: 100px;
+    }
+  }
+}

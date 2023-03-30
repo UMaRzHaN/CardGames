@@ -1,0 +1,165 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  min-width: calc(100% / 2);
+  height: 100vh;
+
+  .player {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #434242;
+    width: 70%;
+    height: max-content;
+    padding: 5px;
+    gap: 5px;
+    border-radius: 10px;
+    position: relative;
+    .nickname {
+      padding-left: 10px;
+      background: transparent;
+      font-size: x-large;
+      color: rgb(255, 253, 253);
+    }
+    .turn {
+      width: 97%;
+      border-radius: 5px;
+      font-size: 12px;
+      padding: 5px;
+      background: white;
+    }
+
+    .cards {
+      display: flex;
+      justify-content: space-between;
+      // flex-direction: column;
+      flex-wrap: wrap;
+      font-weight: 800;
+      font-size: xx-large;
+      border-radius: 5px;
+      min-height: 100px;
+      max-height: max-content;
+      padding: 10px;
+      position: relative;
+      background: transparent;
+      gap: 5px;
+    }
+  }
+  .desk {
+    display: flex;
+    align-items: center;
+    background: #22a39f;
+    width: 90%;
+    height: 280px;
+    position: relative;
+    color: white;
+    font-weight: 800;
+    font-size: xx-large;
+    border-radius: 20px;
+    padding: 10px;
+    .card_stock {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+      position: absolute;
+      left: 0;
+      min-width: 20%;
+      height: 75%;
+      background: transparent;
+      padding: 10px;
+      overflow: hidden;
+    }
+    .play_cards {
+      position: absolute;
+      right: 0;
+      height: 80%;
+      width: 80%;
+      border-radius: 20px;
+      display: block;
+      flex-wrap: wrap;
+      margin-right: 10px;
+    }
+  }
+}
+.linkbtn {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #fff;
+}
+.linkbtn {
+  --c: #229091; /* the color*/
+
+  box-shadow: 0 0 0 0.1em inset var(--c);
+  --_g: linear-gradient(var(--c) 0 0) no-repeat;
+  background: var(--_g) calc(var(--_p, 0%) - 100%) 0%,
+    var(--_g) calc(200% - var(--_p, 0%)) 0%,
+    var(--_g) calc(var(--_p, 0%) - 100%) 100%,
+    var(--_g) calc(200% - var(--_p, 0%)) 100%;
+  background-size: 50.5% calc(var(--_p, 0%) / 2 + 0.5%);
+  outline-offset: 0.1em;
+  transition: background-size 0.4s, background-position 0s 0.4s;
+}
+
+.linkbtn:hover {
+  --_p: 100%;
+  transition: background-position 0.4s, background-size 0s;
+}
+.linkbtn:active {
+  box-shadow: 0 0 9e9Q inset #0009;
+  background-color: var(--c);
+  color: #fff;
+}
+.linkbtn {
+  font-family: system-ui, sans-serif;
+  font-size: 1.55rem;
+  margin-right: 10px;
+  cursor: pointer;
+  padding: 0.1em 0.6em;
+  font-weight: bold;
+  border: none;
+  display: block;
+}
+.btnstart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border: none;
+  font-size: 28px;
+  width: 18%;
+}
+.btnstart {
+  --c: #229091; /* the color*/
+  box-shadow: 0 0 0 0.1em inset var(--c);
+  --_g: linear-gradient(var(--c) 0 0) no-repeat;
+  background: var(--_g) calc(var(--_p, 0%) - 100%) 0%,
+    var(--_g) calc(200% - var(--_p, 0%)) 0%,
+    var(--_g) calc(var(--_p, 0%) - 100%) 100%,
+    var(--_g) calc(200% - var(--_p, 0%)) 100%;
+  background-size: 50.5% calc(var(--_p, 0%) / 2 + 0.5%);
+  outline-offset: 0.1em;
+  transition: background-size 0.4s, background-position 0s 0.4s;
+}
+.btnstart:hover {
+  --_p: 100%;
+  transition: background-position 0.4s, background-size 0s;
+}
+.btnstart:active {
+  box-shadow: 0 0 9e9Q inset #0009;
+  background-color: var(--c);
+  color: #fff;
+}
+
+@media (min-width: 800px) {
+  .player {
+    width: max-content;
+  }
+  .desk {
+    height: 400px;
+  }
+}

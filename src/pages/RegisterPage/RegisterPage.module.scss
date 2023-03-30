@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(234, 231, 231);
+}
+body {
+  background-color: #fff;
+  font-family: system-ui, sans-serif;
+}
+.reg_main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-transform: uppercase;
+}
+.reg_page {
+  margin: 0 0 50px 0;
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+input {
+  color: #3b5983;
+  height: 45px;
+  width: 100%;
+  border: 2px solid #92b6e8;
+  border-radius: 5px;
+  font-size: 15px;
+  line-height: 16px;
+  padding-left: 25px;
+  background-color: #fff;
+  margin-top: 10px;
+}
+.reg_circle {
+  position: absolute;
+  z-index: 1;
+  width: 535px;
+  height: 535px;
+  border-radius: 50%;
+  background-color: #f7faff;
+  -webkit-box-shadow: 33px 15px 17px 0px rgba(59, 89, 131, 0.78);
+  -moz-box-shadow: 33px 15px 17px 0px rgba(59, 89, 131, 0.78);
+  box-shadow: 33px 15px 17px 0px rgba(59, 89, 131, 0.78);
+}
+.register_form_container {
+  z-index: 230;
+  max-width: 415px;
+  height: 435px;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 6px 50px rgba(217, 229, 255, 0.7);
+  border-radius: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.reg_title {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  line-height: 23px;
+  background-color: #fff;
+}
+.reg_fields {
+  background-color: #fff;
+}
+
+.reg_field {
+  margin-bottom: 15px;
+  background-color: #fff;
+}
+.reg_buttons {
+  background-color: #fff;
+}
+.reg_button {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: none;
+  height: 35px;
+  width: 100%;
+ margin-bottom: 10px;
+  margin-left: -3px;
+  border-radius: 5px; 
+  color: #3b5983;
+  --c: #229091; 
+  box-shadow: 0 0 0 0.1em inset var(--c);
+  --_g: linear-gradient(var(--c) 0 0) no-repeat;
+  background: var(--_g) calc(var(--_p, 0%) - 100%) 0%,
+    var(--_g) calc(200% - var(--_p, 0%)) 0%,
+    var(--_g) calc(var(--_p, 0%) - 100%) 100%,
+    var(--_g) calc(200% - var(--_p, 0%)) 100%;
+  background-size: 50.5% calc(var(--_p, 0%) / 2 + 0.5%);
+  outline-offset: 0.1em;
+  transition: background-size 0.4s, background-position 0s 0.4s;
+  .reg_button:active {
+    box-shadow: 0 0 9e9Q inset #0009;
+    background-color: var(--c);
+    color: #fff;
+  }
+}
+.reg_button:hover {
+  --_p: 100%;
+  transition: background-position 0.4s, background-size 0s;
+}

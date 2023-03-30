@@ -1,0 +1,37 @@
+$num: 1.4;
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(41px * $num);
+  height: calc(60px * $num);
+  border-radius: 5px;
+
+  border: 2px solid coral;
+  transition: 1s;
+
+  background: no-repeat;
+  background-size: 100%;
+  cursor: pointer;
+
+  color: aquamarine;
+}
+
+// @keyframes card_move {
+//   0% {
+//     margin-top: 10px;
+//   }
+//   25% {
+//     margin-top: calc(25px);
+//   }
+//   50% {
+//     margin-top: 10px;
+//   }
+//   75% {
+//     margin-top: calc(25px);
+//   }
+//   100% {
+//     margin-top: 10px;
+//   }
+

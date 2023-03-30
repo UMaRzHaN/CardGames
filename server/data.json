@@ -1,0 +1,533 @@
+{
+  "Cards": [
+    {
+      "suit": "clovers",
+      "number": 2,
+      "name": "2",
+      "selected": false,
+      "img": "https://i.pinimg.com/564x/fe/b4/96/feb49666111b15a5aa7fe5f5f5070ce4.jpg",
+      "id": 1,
+      "color": "black"
+    },
+    {
+      "suit": "clovers",
+      "number": 3,
+      "name": "3",
+      "selected": false,
+      "img": "https://i.pinimg.com/564x/65/db/b7/65dbb76daac24328cba0a3e846064290.jpg",
+      "id": 2,
+      "color": "black"
+    },
+    {
+      "suit": "clovers",
+      "number": 4,
+      "name": "4",
+      "selected": false,
+      "img": "https://i.pinimg.com/564x/d7/e9/d0/d7e9d000efa7c222628daf42bc7d8ef2.jpg",
+      "id": 4,
+      "color": "black"
+    },
+    {
+      "suit": "clovers",
+      "number": 5,
+      "name": "5",
+      "selected": false,
+      "img": "  https://i.pinimg.com/564x/dc/c7/7a/dcc77a61638674bf52f01a8840502fe9.jpg",
+      "id": 5,
+      "color": "black"
+    },
+    {
+      "suit": "clovers",
+      "number": 6,
+      "name": "6",
+      "selected": false,
+      "img": "https://i.pinimg.com/564x/d4/81/68/d48168e5fc8235b0b53d7d549fa1fe51.jpg",
+      "id": 6,
+      "color": "black"
+    },
+    {
+      "suit": "clovers",
+      "number": 7,
+      "name": "7",
+      "selected": false,
+      "img": "https://i.pinimg.com/564x/e8/02/6d/e8026d0d10ff797bce3394b8bbf4313f.jpg",
+      "id": 7,
+      "color": "black"
+    },
+    {
+      "suit": "clovers",
+      "number": 8,
+      "name": "8",
+      "selected": false,
+      "img": "https://i.pinimg.com/564x/61/e3/9d/61e39d7e8c53c82877e32346acd6f408.jpg",
+      "id": 8,
+      "color": "black"
+    },
+    {
+      "suit": "clovers",
+      "number": 9,
+      "name": "9",
+      "selected": false,
+      "img": "https://i.pinimg.com/564x/76/90/fb/7690fbe61cfa6d8c5d3650d30a8dba36.jpg",
+      "id": 9,
+      "color": "black"
+    },
+    {
+      "suit": "clovers",
+      "number": 10,
+      "name": "10",
+      "selected": false,
+      "img": "https://i.pinimg.com/564x/39/f7/4f/39f74f63ec60ca31ba6b844c2ad48e43.jpg",
+      "id": 10,
+      "color": "black"
+    },
+    {
+      "suit": "clovers",
+      "number": 11,
+      "name": "J",
+      "selected": false,
+      "img": "https://i.pinimg.com/564x/2d/3f/fa/2d3ffad49ab18ccd62c629e333fe19e1.jpg",
+      "id": 11,
+      "color": "black"
+    },
+    {
+      "suit": "clovers",
+      "number": 12,
+      "name": "Q",
+      "selected": false,
+      "img": "https://i.pinimg.com/564x/1c/7e/e5/1c7ee5cd1aeae856f8fbd9f86ce6419c.jpg",
+      "id": 12,
+      "color": "black"
+    },
+    {
+      "suit": "clovers",
+      "number": 13,
+      "name": "K",
+      "selected": false,
+      "img": "https://i.pinimg.com/564x/cb/e3/6f/cbe36f3a55653edc6bf66ca94f5088e3.jpg",
+      "id": 13
+    },
+    {
+      "suit": "clovers",
+      "number": 14,
+      "name": "A",
+      "selected": false,
+      "img": "https://i.pinimg.com/564x/cc/ba/6c/ccba6cf83fd0ae5460804f680adab182.jpg",
+      "id": 14,
+      "color": "black"
+    },
+    {
+      "suit": "hearts",
+      "number": 2,
+      "name": "2",
+      "selected": false,
+      "img": "https://i.pinimg.com/564x/a5/18/9b/a5189b5914e7f93d0141b330984812ef.jpg",
+      "id": 15,
+      "color": "red"
+    },
+    {
+      "suit": "hearts",
+      "number": 3,
+      "name": "3",
+      "selected": false,
+      "img": "https://i.pinimg.com/564x/80/52/c0/8052c043fc8d3a2eed000562f7ef946a.jpg",
+      "id": 16,
+      "color": "red"
+    },
+    {
+      "suit": "hearts",
+      "number": 4,
+      "name": "4",
+      "selected": false,
+      "img": "https://i.pinimg.com/564x/98/9b/b8/989bb80df579f9682630e06c6b80786b.jpg",
+      "id": 17,
+      "color": "red"
+    },
+    {
+      "suit": "hearts",
+      "number": 5,
+      "name": "5",
+      "selected": false,
+      "img": "https://i.pinimg.com/564x/b5/cd/a8/b5cda84c5875ef817b06dbec44eb440b.jpg",
+      "id": 18,
+      "color": "red"
+    },
+    {
+      "suit": "hearts",
+      "number": 6,
+      "name": "6",
+      "selected": false,
+      "img": "https://i.pinimg.com/564x/c4/5b/ab/c45bab65ab66a5f39ffe05504583e27e.jpg",
+      "id": 19,
+      "color": "red"
+    },
+    {
+      "suit": "hearts",
+      "number": 7,
+      "name": "7",
+      "selected": false,
+      "img": "https://i.pinimg.com/564x/77/18/72/771872e9b031ffca4d232ba88d7a7ff1.jpg",
+      "id": 20,
+      "color": "red"
+    },
+    {
+      "suit": "hearts",
+      "number": 8,
+      "name": "8",
+      "selected": false,
+      "img": "https://i.pinimg.com/564x/a9/b5/18/a9b518254de3bbc173a4d6d99c1de881.jpg",
+      "id": 21,
+      "color": "red"
+    },
+    {
+      "suit": "hearts",
+      "number": 9,
+      "name": "9",
+      "selected": false,
+      "img": "https://i.pinimg.com/564x/27/0c/22/270c224f824367bdffee840570429139.jpg",
+      "id": 22,
+      "color": "red"
+    },
+    {
+      "suit": "hearts",
+      "number": 10,
+      "name": "10",
+      "selected": false,
+      "img": "https://i.pinimg.com/564x/d2/d7/02/d2d702a6307ac2686ba423cb99e58a28.jpg",
+      "id": 23,
+      "color": "red"
+    },
+    {
+      "suit": "hearts",
+      "number": 11,
+      "name": "J",
+      "selected": false,
+      "img": "https://i.pinimg.com/564x/e4/cd/8a/e4cd8a959742f95f8c5c6731e70caf48.jpg",
+      "id": 24,
+      "color": "red"
+    },
+    {
+      "suit": "hearts",
+      "number": 12,
+      "name": "Q",
+      "selected": false,
+      "img": "https://i.pinimg.com/564x/c9/f7/ff/c9f7ff219be4822e0995badfa863c848.jpg",
+      "id": 25,
+      "color": "red"
+    },
+    {
+      "suit": "hearts",
+      "number": 13,
+      "name": "K",
+      "selected": false,
+      "img": "https://i.pinimg.com/564x/ad/c2/97/adc297b6dce1d0b9feb675e69fe9f930.jpg",
+      "id": 26,
+      "color": "red"
+    },
+    {
+      "suit": "hearts",
+      "number": 14,
+      "name": "A",
+      "selected": false,
+      "img": "https://i.pinimg.com/564x/6d/42/67/6d4267936335d2ee298fc807db0687ee.jpg",
+      "id": 27,
+      "color": "red"
+    },
+    {
+      "suit": "pikes",
+      "number": 2,
+      "name": "2",
+      "selected": false,
+      "img": "https://i.pinimg.com/564x/61/58/26/61582645b0aa128a612dbd428874d2ba.jpg",
+      "id": 28,
+      "color": "black"
+    },
+    {
+      "suit": "pikes",
+      "number": 3,
+      "name": "3",
+      "selected": false,
+      "img": "https://i.pinimg.com/564x/1f/0f/4b/1f0f4bb2bcd9c6b46f0a8e2139c436b6.jpg",
+      "id": 29,
+      "color": "black"
+    },
+    {
+      "suit": "pikes",
+      "number": 4,
+      "name": "4",
+      "selected": false,
+      "img": "https://i.pinimg.com/564x/e3/b8/7e/e3b87e4789c054f1906eb025970665ed.jpg",
+      "id": 30,
+      "color": "black"
+    },
+    {
+      "suit": "pikes",
+      "number": 5,
+      "name": "5",
+      "selected": false,
+      "img": "https://i.pinimg.com/564x/c7/a9/c8/c7a9c8f4dea7d663705eba1bc2f33ed4.jpg",
+      "id": 31,
+      "color": "black"
+    },
+    {
+      "suit": "pikes",
+      "number": 6,
+      "name": "6",
+      "selected": false,
+      "img": "https://i.pinimg.com/564x/33/9f/65/339f656a26c6e34b84039bd78e6b885b.jpg",
+      "id": 33,
+      "color": "black"
+    },
+    {
+      "suit": "pikes",
+      "number": 7,
+      "name": "7",
+      "selected": false,
+      "img": "https://i.pinimg.com/564x/bf/a3/ae/bfa3ae48001b4c458fe59c36346517f3.jpg",
+      "id": 34,
+      "color": "black"
+    },
+    {
+      "suit": "pikes",
+      "number": 8,
+      "name": "8",
+      "selected": false,
+      "img": "https://i.pinimg.com/564x/bc/9f/00/bc9f00025dd5e86ca6e53f6dbe80881b.jpg",
+      "id": 35,
+      "color": "black"
+    },
+    {
+      "suit": "pikes",
+      "number": 9,
+      "name": "9",
+      "selected": false,
+      "img": "https://i.pinimg.com/564x/0a/ea/cc/0aeacc84bc63c75b9d2f499209d17c97.jpg",
+      "id": 36,
+      "color": "black"
+    },
+    {
+      "suit": "pikes",
+      "number": 10,
+      "name": "10",
+      "selected": false,
+      "img": "https://i.pinimg.com/564x/3a/44/65/3a4465d0d1b19733f359a235dd16a3ec.jpg",
+      "id": 37,
+      "color": "black"
+    },
+    {
+      "suit": "pikes",
+      "number": 11,
+      "name": "J",
+      "selected": false,
+      "img": "https://i.pinimg.com/564x/29/80/6c/29806c89c5eb38f69bb1ddbb62a6566e.jpg",
+      "id": 38,
+      "color": "black"
+    },
+    {
+      "suit": "pikes",
+      "number": 12,
+      "name": "Q",
+      "selected": false,
+      "img": "https://i.pinimg.com/564x/41/dd/6c/41dd6ce50772e2c6007d92fa2550748a.jpg",
+      "id": 39,
+      "color": "black"
+    },
+    {
+      "suit": "pikes",
+      "number": 13,
+      "name": "K",
+      "selected": false,
+      "img": "https://i.pinimg.com/564x/84/6c/d3/846cd38ff6094ad99c668c88f7c529d6.jpg",
+      "id": 40,
+      "color": "black"
+    },
+    {
+      "suit": "pikes",
+      "number": 14,
+      "name": "A",
+      "selected": false,
+      "img": "https://i.pinimg.com/564x/db/ec/d4/dbecd4f9c4beabde294f3f14ba68a406.jpg",
+      "id": 41,
+      "color": "black"
+    },
+    {
+      "suit": "diamonds",
+      "number": 2,
+      "name": "2",
+      "selected": false,
+      "img": "https://i.pinimg.com/564x/dc/11/22/dc11222168111d84c3987e89360fa187.jpg",
+      "id": 42,
+      "color": "red"
+    },
+    {
+      "suit": "diamonds",
+      "number": 3,
+      "name": "3",
+      "selected": false,
+      "img": "https://i.pinimg.com/564x/fc/14/a1/fc14a18eb91129d356558e759281b1f8.jpg",
+      "id": 43,
+      "color": "red"
+    },
+    {
+      "suit": "diamonds",
+      "number": 4,
+      "name": "4",
+      "selected": false,
+      "img": "https://i.pinimg.com/564x/95/fe/cb/95fecb30aba1f3e7a6523b301764ea8f.jpg",
+      "id": 44,
+      "color": "red"
+    },
+    {
+      "suit": "diamonds",
+      "number": 5,
+      "name": "5",
+      "selected": false,
+      "img": "https://i.pinimg.com/564x/c3/27/b7/c327b7586a8604bd58987014249f4b75.jpg",
+      "id": 45,
+      "color": "red"
+    },
+    {
+      "suit": "diamonds",
+      "number": 6,
+      "name": "6",
+      "selected": false,
+      "img": "https://i.pinimg.com/564x/70/76/33/7076332d1fe444c2bc33fbe555f21642.jpg",
+      "id": 46,
+      "color": "red"
+    },
+    {
+      "suit": "diamonds",
+      "number": 7,
+      "name": "7",
+      "selected": false,
+      "img": "https://i.pinimg.com/564x/b1/c4/6f/b1c46ffee55fc8adb57a360e2193c215.jpg",
+      "id": 47,
+      "color": "red"
+    },
+    {
+      "suit": "diamonds",
+      "number": 8,
+      "name": "8",
+      "selected": false,
+      "img": "https://i.pinimg.com/564x/a0/0f/5c/a00f5ce0f68cf206c93bc01dd4993821.jpg",
+      "id": 48,
+      "color": "red"
+    },
+    {
+      "suit": "diamonds",
+      "number": 9,
+      "name": "9",
+      "selected": false,
+      "img": "https://i.pinimg.com/564x/bc/8a/5d/bc8a5db74978e7caa4afbd5079bc6ca7.jpg",
+      "id": 49,
+      "color": "red"
+    },
+    {
+      "suit": "diamonds",
+      "number": 10,
+      "name": "10",
+      "selected": false,
+      "img": "https://i.pinimg.com/564x/02/3d/9d/023d9df9fb4f163f2065d9171eb4d879.jpg",
+      "id": 50,
+      "color": "red"
+    },
+    {
+      "suit": "diamonds",
+      "number": 11,
+      "name": "J",
+      "selected": false,
+      "img": "https://i.pinimg.com/564x/01/ad/a0/01ada05e1861b2792b1391c30dc4e995.jpg",
+      "id": 51,
+      "color": "red"
+    },
+    {
+      "suit": "diamonds",
+      "number": 12,
+      "name": "Q",
+      "selected": false,
+      "img": "https://i.pinimg.com/564x/1d/1d/26/1d1d260883925fd5aafed2cc12f67295.jpg",
+      "id": 52,
+      "color": "red"
+    },
+    {
+      "suit": "diamonds",
+      "number": 13,
+      "name": "K",
+      "selected": false,
+      "img": "https://i.pinimg.com/564x/50/a2/d6/50a2d6fa68365fe23e2fd2d584d7a244.jpg",
+      "id": 53,
+      "color": "red"
+    },
+    {
+      "suit": "diamonds",
+      "number": 14,
+      "name": "A",
+      "selected": false,
+      "img": "https://i.pinimg.com/564x/27/54/88/275488331a0ac0a44c6fb7d8c50102a7.jpg",
+      "id": 54,
+      "color": "red"
+    }
+  ],
+  "Users": [
+    {
+      "email": "admin@gmail.com",
+      "name": "Admin",
+      "password": "Admin1234!",
+      "id": "0"
+    },
+    {
+      "email": "user",
+      "name": "user",
+      "password": "user",
+      "id": "XFmvS5P"
+    },
+    {
+      "email": "alisher",
+      "name": "alisher",
+      "password": "alisher",
+      "id": "yRKfsta"
+    }
+  ],
+  "Rooms": [
+    {
+      "mode": "24",
+      "id": "de5307ae-f226-48cd-afaf-23535bba9af2"
+    },
+    {
+      "mode": "24",
+      "id": "695aeb83-77d9-4901-9ef4-1e49ff1ed5dc"
+    },
+    {
+      "mode": "24",
+      "id": "ee7891d3-3084-4838-8cfd-828121d099f1"
+    },
+    {
+      "mode": "24",
+      "id": "2ce634a2-7355-4b8e-b389-dc2bc30070e4"
+    },
+    {
+      "mode": "24",
+      "id": "ab73ada7-e983-4925-846f-27e120dc1ada"
+    },
+    {
+      "mode": "24",
+      "id": "5b68b8d2-5747-44b1-a174-87a0a85e6697"
+    },
+    {
+      "mode": "24",
+      "id": "9c63bf16-88c2-4f18-9317-60417edcadd3"
+    },
+    {
+      "mode": "52",
+      "id": "cdd52047-2fd8-451e-ac72-26abe99e48a9"
+    },
+    {
+      "mode": "24",
+      "id": "867c76c6-fa16-4841-b2fe-a1867e86301d"
+    },
+    {
+      "mode": "24",
+      "id": "5e9e0f21-37ab-4922-88f9-6ca0100f9cdc"
+    }
+  ]
+}
